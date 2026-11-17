@@ -1,0 +1,191 @@
+DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritmo Sin Límite - Club Deportivo Inclusivo</title>
+    <style>
+        /* PALETA DE COLORES DE REFERENCIA */
+        :root {
+            --color-primario: #0d47a1;    /* Azul deportivo */
+            --color-secundario: #00acc1;  /* Turquesa inclusión */
+            --color-acento: #ff7043;      /* Naranja energía */
+            --color-fondo: #f4f7f9;
+            --color-texto: #263238;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: var(--color-fondo);
+            color: var(--color-texto);
+            line-height: 1.6;
+        }
+        nav {
+            background-color: white;
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        nav img {
+            height: 65px;
+            border-radius: 8px;
+        }
+        header {
+            background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+        header h1 {
+            font-size: 2.6rem;
+            margin-bottom: 15px;
+        }
+        header p {
+            max-width: 750px;
+            margin: 0 auto 25px;
+            font-size: 1.15rem;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--color-acento);
+            color: white;
+            padding: 12px 28px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+        .contenedor {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .grid-servicios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            text-align: left;
+        }
+        .card img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+        }
+        .card-info {
+            padding: 20px;
+        }
+        .card-info h3 {
+            color: var(--color-primario);
+            margin-bottom: 8px;
+        }
+        .paleta {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .muestra-color {
+            padding: 15px 25px;
+            border-radius: 8px;
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        footer {
+            background-color: #1c262b;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <img src="Captura de pantalla 2026-09-08 220920.png" alt="Logo Ritmo Sin Límite">
+        <a href="#servicios" class="btn">Nuestros Servicios</a>
+    </nav>
+
+    <header>
+        <h1>Ritmo Sin Límite</h1>
+        <p>Club deportivo inclusivo de atletismo, natación y acuatlón para personas sin y con discapacidad (física o motora, intelectual y visual). Implementamos tecnología de audífonos de conducción ósea para fomentar la comunicación entre entrenadores y deportistas.</p>
+    </header>
+
+    <section id="servicios" class="contenedor">
+        <h2>Nuestros Servicios y Disciplinas</h2>
+        <div class="grid-servicios">
+            <div class="card">
+                <img src="IMG_6508.JPG" alt="Atletismo Inclusivo">
+                <div class="card-info">
+                    <h3>Atletismo Adaptado</h3>
+                    <p>Entrenamiento de pista y resistencia adaptado a las capacidades de cada deportista.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMG_6509.JPG" alt="Natación Inclusiva">
+                <div class="card-info">
+                    <h3>Natación Inclusiva</h3>
+                    <p>Desarrollo técnico en el agua con acompañamiento personalizado y seguro.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMG_6510.JPG" alt="Acuatlón">
+                <div class="card-info">
+                    <h3>Acuatlón</h3>
+                    <p>Combinación de carrera y natación fomentando el trabajo en equipo y la superación.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMG_6512.JPG" alt="Conducción Ósea">
+                <div class="card-info">
+                    <h3>Tecnología de Conducción Ósea</h3>
+                    <p>Comunicación directa en tiempo real entre entrenador y deportista durante el ejercicio.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMG_6513.JPG" alt="Deporte para Todos">
+                <div class="card-info">
+                    <h3>Formación Inclusiva</h3>
+                    <p>Espacios compartidos para personas con discapacidad física, intelectual, visual y sin discapacidad.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMG_6508.JPG" alt="Acompañamiento Deportivo">
+                <div class="card-info">
+                    <h3>Entrenamiento Personalizado</h3>
+                    <p>Planificación deportiva enfocada en el bienestar, la autonomía y el alto rendimiento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor">
+        <h2>Paleta de Colores del Proyecto</h2>
+        <div class="paleta">
+            <div class="muestra-color" style="background-color: #0d47a1;">Primario: #0d47a1</div>
+            <div class="muestra-color" style="background-color: #00acc1;">Secundario: #00acc1</div>
+            <div class="muestra-color" style="background-color: #ff7043;">Acento: #ff7043</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ritmo Sin Límite - Club Deportivo Inclusivo</p>
+    </footer>
+
+</body>
